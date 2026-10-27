@@ -1,0 +1,2262 @@
+{
+  "info": {
+    "name": "OLMS Full API Collection",
+    "description": "Automatically generated Postman collection for all OLMS APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "AssessmentAttempt",
+      "item": [
+        {
+          "name": "POST /api/assessment-attempts",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/assessment-attempts",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessment-attempts"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/assessment-attempts/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessment-attempts/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessment-attempts",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/assessment-attempts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessment-attempts",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessment-attempts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/assessment-attempts/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/assessment-attempts/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessment-attempts",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/assessment-attempts/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessment-attempts/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessment-attempts",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Assessment",
+      "item": [
+        {
+          "name": "POST /api/assessments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/assessments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/assessments/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/assessments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/assessments/course/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessments/course/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments",
+                "course",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/assessments/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/assessments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/assessments/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/assessments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "assessments",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "AuditLog",
+      "item": [
+        {
+          "name": "POST /api/audit-logs",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "audit-logs"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit-logs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/audit-logs",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "audit-logs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit-logs/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/audit-logs/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "audit-logs",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit-logs/user/{userId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/audit-logs/user/{userId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "audit-logs",
+                "user",
+                "{userId}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "POST /api/auth/login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/auth/login",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"pragati@gmail.com\",\n  \"password\": \"Pragati@123\"\n}"
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/register",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/auth/register",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"newuser\",\n  \"email\": \"newuser@example.com\",\n  \"password\": \"password123\",\n  \"fullName\": \"New User\",\n  \"role\": \"LEARNER\"\n}"
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/auth/logout",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "logout"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Certificate",
+      "item": [
+        {
+          "name": "POST /api/certificates",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/certificates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"learner\": { \"id\": 1 },\n  \"course\": { \"id\": 1 },\n  \"issuedDate\": \"2026-09-13T10:00:00Z\",\n  \"verificationCode\": \"CERT-XYZ123\",\n  \"verificationUrl\": \"http://localhost:8081/verify-certificate/CERT-XYZ123\"\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificates/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificates/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificates/learner/{learnerId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificates/learner/{learnerId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates",
+                "learner",
+                "{learnerId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificates/verify/{verificationCode}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificates/verify/{verificationCode}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates",
+                "verify",
+                "{verificationCode}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificates/{id}/download",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificates/{id}/download",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificates",
+                "{id}",
+                "download"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "CertificateTemplate",
+      "item": [
+        {
+          "name": "POST /api/certificate-templates",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/certificate-templates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificate-templates"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificate-templates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificate-templates",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificate-templates"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/certificate-templates/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificate-templates/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificate-templates",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/certificate-templates/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/certificate-templates/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificate-templates",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/certificate-templates/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/certificate-templates/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "certificate-templates",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Course",
+      "item": [
+        {
+          "name": "POST /api/courses/{id}/enroll",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/courses/{id}/enroll",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "{id}",
+                "enroll"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "POST /api/courses",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/courses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses/instructor/{instructorId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/instructor/{instructorId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "instructor",
+                "{instructorId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses/status/{status}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/status/{status}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "status",
+                "{status}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses/category/{category}/status/{status}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/category/{category}/status/{status}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "category",
+                "{category}",
+                "status",
+                "{status}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/courses/search",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/search",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/courses/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/courses/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/courses/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/courses/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "courses",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "CourseModule",
+      "item": [
+        {
+          "name": "POST /api/course-modules",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/course-modules",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/course-modules/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/course-modules/course/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules/course/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules",
+                "course",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/course-modules/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/course-modules/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/course-modules/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "course-modules",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Discussion",
+      "item": [
+        {
+          "name": "POST /api/discussions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/discussions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/discussions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/discussions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/discussions/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/discussions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/discussions/course/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/discussions/course/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions",
+                "course",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/discussions/parent/{parentId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/discussions/parent/{parentId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions",
+                "parent",
+                "{parentId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/discussions/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/discussions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/discussions/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/discussions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "discussions",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Enrollment",
+      "item": [
+        {
+          "name": "POST /api/enrollments",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments/learner/{learnerId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/learner/{learnerId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "learner",
+                "{learnerId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments/course/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/course/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "course",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments/learner/{learnerId}/course/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/learner/{learnerId}/course/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "learner",
+                "{learnerId}",
+                "course",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/enrollments/check/{learnerId}/{courseId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/check/{learnerId}/{courseId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "check",
+                "{learnerId}",
+                "{courseId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/enrollments/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/enrollments/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/enrollments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "enrollments",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lesson",
+      "item": [
+        {
+          "name": "POST /api/lessons/{id}/complete",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/lessons/{id}/complete",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons",
+                "{id}",
+                "complete"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "POST /api/lessons",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/lessons",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/lessons",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lessons",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/lessons/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lessons/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/lessons/module/{moduleId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lessons/module/{moduleId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons",
+                "module",
+                "{moduleId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/lessons/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/lessons/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/lessons/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lessons/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lessons",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "LessonProgress",
+      "item": [
+        {
+          "name": "POST /api/lesson-progress",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/lesson-progress",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/lesson-progress/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/lesson-progress/enrollment/{enrollmentId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress/enrollment/{enrollmentId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress",
+                "enrollment",
+                "{enrollmentId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/lesson-progress/enrollment/{enrollmentId}/lesson/{lessonId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress/enrollment/{enrollmentId}/lesson/{lessonId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress",
+                "enrollment",
+                "{enrollmentId}",
+                "lesson",
+                "{lessonId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/lesson-progress/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/lesson-progress/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/lesson-progress/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "lesson-progress",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Notification",
+      "item": [
+        {
+          "name": "POST /api/notifications",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/notifications",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/notifications",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/notifications",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/notifications/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/notifications/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/notifications/user/{userId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/notifications/user/{userId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications",
+                "user",
+                "{userId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/notifications/user/{userId}/unread-count",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/notifications/user/{userId}/unread-count",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications",
+                "user",
+                "{userId}",
+                "unread-count"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/notifications/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/notifications/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/notifications/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/notifications/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "notifications",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Payment",
+      "item": [
+        {
+          "name": "POST /api/payments/create",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/payments/create",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "create"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"courseId\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "POST /api/payments/verify",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/payments/verify",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "verify"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"paymentId\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/payments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/payments",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/payments/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/payments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/payments/learner/{learnerId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/payments/learner/{learnerId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "learner",
+                "{learnerId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/payments/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/payments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"SUCCESS\",\n  \"transactionRef\": \"UPDATED-REF\"\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/payments/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/payments/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "payments",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Question",
+      "item": [
+        {
+          "name": "POST /api/questions",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/questions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/questions",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/questions",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/questions/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/questions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/questions/assessment/{assessmentId}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/questions/assessment/{assessmentId}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions",
+                "assessment",
+                "{assessmentId}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/questions/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/questions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/questions/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/questions/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "questions",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "item": [
+        {
+          "name": "POST /api/users",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/users",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"testuser\",\n  \"email\": \"testuser@example.com\",\n  \"passwordHash\": \"password123\",\n  \"fullName\": \"Test User\",\n  \"role\": \"LEARNER\"\n}"
+            }
+          }
+        },
+        {
+          "name": "GET /api/users",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/users/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "{id}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/users/email/{email}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users/email/{email}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "email",
+                "{email}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/users/check-email/{email}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users/check-email/{email}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "check-email",
+                "{email}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/users/check-username/{username}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users/check-username/{username}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "check-username",
+                "{username}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/users/{id}",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/api/users/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "{id}"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"bio\": \"Updated bio information\"\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/users/{id}",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/users/{id}",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "users",
+                "{id}"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8080",
+      "type": "string"
+    }
+  ]
+}
